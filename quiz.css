@@ -1,0 +1,301 @@
+body {
+font-family: montserrat, sans-serif;
+margin:0px;
+overflow-y: hidden;
+}
+
+a{
+  font-family:Roboto, sans-serif;
+  font-weight:300;
+  letter-spacing: 0.5px;
+  text-transform:uppercase;
+  color:#C0C0C0;
+  font-size:15px;
+  text-decoration:none;
+}
+
+.bg{
+  position:absolute;
+}
+
+img{
+  max-width:100%;
+}
+
+.landingPage{
+position:relative;
+height:100vh;
+}
+
+#landingTextBlock{
+position: relative;
+padding-left: 53vw;
+padding-top:33vh;
+width:450px;
+height:300px;
+z-index:2;
+}
+
+#opener{
+position:relative;
+font-weight: 700;
+color:#E85147;
+font-size: 60px;
+line-height: 60px;
+}
+
+.description{
+color:#707070;
+line-height: 25px;
+}
+
+#openDescription{
+padding-top: 40px;
+}
+
+#beginButton{
+width:100px;
+height:40px;
+border-radius:10px;
+font-family: Montserrat,sans-serif;
+font-weight:400;
+font-size: 15px;
+background-color: #463b5b;
+border:1px solid #463b5b;
+color:#dadada;
+margin-top:40px;
+z-index:1;
+}
+
+#quiz{
+position:relative;
+padding-top:100vh;
+}
+
+.questionBlock{
+position: static;
+grid-column:7/span 12;
+grid-row: 10/span 7;
+height:100vh;
+padding-top:30vh;
+padding-left:25vw;
+}
+
+.statement{
+position:relative;
+font-family: montserrat, sans-serif;
+font-weight: 500;
+font-size:20px;
+color:#606060;
+line-height:40px;
+text-align:center;
+visibility:visible;
+width:700px;
+}
+
+.rowDecision{
+position:relative;
+padding-top:30px;
+padding-left: 30px;
+width:58%;
+height:100px;
+}
+
+.scaleLabel1{
+text-align:left;
+padding-top:20px;
+font-family:Montserrat,sans-serif;
+font-weight:600;
+text-transform:uppercase;
+color:#808080;
+width:100px;
+z-index:-1;
+}
+
+.scaleLabel2{
+margin-top:-20px;
+padding-right:20px;
+float:right;
+text-align:right;
+font-family:Montserrat,sans-serif;
+font-weight:600;
+text-transform:uppercase;
+color:#808080;
+width:100px;
+}
+
+.btn-group{
+position:relative;
+display: inline-block;
+margin-left:135px;
+top:-30px;
+z-index:1;
+}
+
+.btn {
+  display:inline-block;
+  padding: 6px 6px;
+  margin-bottom: 0;
+  margin-right:40px;
+  line-height: 1.42857143;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 150px;
+  z-index:-1;
+}
+
+[data-toggle=buttons]>.btn>input[type=checkbox], [data-toggle=buttons]>.btn>input[type=radio] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.max{
+width:30px;
+height:30px;
+vertical-align: middle;
+}
+
+.med{
+width:20px;
+height:20px;
+vertical-align: middle;
+}
+
+.mid{
+width:10px;
+height:10px;
+vertical-align: middle;
+}
+
+.bigDisagree{
+background-color:#ffffff;
+border:3px solid #E85147;
+}
+
+.bigDisagree:hover,
+.bigDisagree.active{
+background-color:#E85147;
+border:3px solid #E85147;
+}
+
+.disagree{
+background-color:#ffffff;
+border:3px solid #DB8583;
+}
+
+.disagree:hover,
+.disagree.active{
+background-color:#DB8583;
+border:3px solid #DB8583;
+}
+
+.neutral{
+background-color:#ffffff;
+border:3px solid #909090;
+}
+
+.neutral:hover,
+.neutral.active{
+background-color:#909090;
+border:3px solid #909090;
+}
+
+.agree{
+background-color:#ffffff;
+border:3px solid #9484AF;
+}
+
+.agree:hover,
+.agree.active{
+background-color:#9484AF;
+border:3px solid #9484AF;
+}
+
+.bigAgree{
+background-color:#ffffff;
+border:3px solid #6F46A5;
+}
+
+.bigAgree:hover,
+.bigAgree.active{
+background-color:#6F46A5;
+border:3px solid #6F46A5;
+}
+
+.nextButton{
+width:100px;
+height:40px;
+border:1px solid gray;
+font-family:Montserrat,sans-serif;
+font-weight:400;
+border-radius:10px;
+margin-left:305px;
+margin-top:30px;
+}
+
+.submitButton{
+width:100px;
+height:40px;
+font-family:Montserrat,sans-serif;
+font-weight:400;
+background-color: #463b5b;
+border:1px solid #463b5b;
+color:#dadada;
+border-radius:10px;
+margin-left:305px;
+margin-top:30px;
+}
+
+#results{
+  position:relative;
+  height:100vh;
+}
+
+.resultPage{
+position:relative;
+height:100vh;
+border:1px solid gray;
+padding: 0px 0px 50px 0px;
+}
+
+.result{
+position:relative;
+padding-left:9vw;
+margin-top:13%;
+width:550px;
+}
+
+.horizontalRule{
+height:1px;
+width:500px;
+position:relative;
+background-color: gray;
+margin-top: 10px;
+}
+
+.about{
+width:500px;
+position:relative;
+margin-top:10px;
+font-family:Lato, sans-serif;
+font-size:10px;
+font-weight:300;
+color:#909090;
+line-height:15px;
+}
+
+h2{
+font-weight:700;
+color:#E85147;
+font-size:35px;
+margin-top:10px;
+}
+
+.description{
+margin-top:-20px;
+}
